@@ -1,0 +1,59 @@
+@font-face {
+  font-family: arcadeFontN;
+  src: url(../fonts/ARCADE_N.TTF);
+}
+
+@font-face {
+  font-family: arcadeFontR;
+  src: url(../fonts/ARCADE_R.TTF);
+}
+
+h1,
+h3 {
+  color: blue;
+  font-family: arcadeFontN;
+  text-align: center;
+}
+
+h2,
+h4,
+p {
+  color: white;
+  font-family: arcadeFontR;
+  text-align: center;
+}
+
+p {
+  font-size: small;
+}
+
+body {
+  background: #202020;
+}
+
+canvas {
+  border: solid 2px white;
+  image-rendering: pixelated;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-family: arcadeFontN;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
