@@ -4,7 +4,7 @@ A simple version of the all-time classic arcade game
 
 ## Try it online
 
-You can play it [here](http://yaniv-pong.herokuapp.com/)
+You can play it [here](https://pong.yanivgoldfrid.com)
 
 ## Commands
 
